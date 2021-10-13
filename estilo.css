@@ -1,0 +1,328 @@
+body{
+    background-color: white;
+    font-family: century;
+    margin: 0;
+}
+#header{
+    height: 208px;
+    padding-top: 10px;
+}
+#logo{
+    width: 350px;
+    height: 110px;
+    position: relative;
+    left: 50%;
+    margin-left: -180px;
+}
+#logoImg{
+    float: left;
+    width: 210px;
+    height: 110px;
+    position: absolute;
+    margin-left: -500px;
+}
+#tituloLogo{
+    float: left;
+    color: #191970;
+    font-size: 75px;
+    margin: 0;
+    line-height: 95px;
+}
+#menu{
+    height: 28px;
+    background-color: #191970;
+    margin-top: 3px;
+}
+.listaMenu{
+    width: 400px;
+    position: relative;
+    left: 47%;
+    margin-left: -200px;
+    margin-top: 0;
+    padding-left: 5px;
+}
+.listaMenu li{
+    display:inline-block;
+}
+.listaMenu li a{
+    text-decoration: none;
+    height: 29px;
+    line-height: 29px;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding: 3,9px;
+    color: white;
+}
+.listaMenu li a:link,
+.listaMenu li a :visited{
+    color: white;
+}
+.listaMenu li a:hover{
+    background-color: white;
+    color: #191970;
+}
+.menuAtual{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#content{
+    background-color: white;
+    width: 800px;
+    left: 48%;
+    margin-left: -400px;
+    min-height: calc(100% - 120px);
+    position: relative;
+}
+#promocaoBanner{
+    height: 180px;
+    margin-top: -90px;
+    background-image: url(imagens/papel_01.jpg);
+}
+.promocaoBanner{
+    margin: 0;
+    color: white;
+    text-shadow: 3px 3px 4px black;
+}
+#promocaoH1{
+    font-size: 40px;
+    margin-left: 25px;
+    color: white;   
+}
+#promocaoValor{
+    font-size: 35px;
+    position:relative;
+    left: 300px;
+    top: -25px;
+    width: 480px;
+    color: white;
+}
+#tituloConteudo{
+    color: #191970;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-left: -95px;
+    height: 40px;
+
+}
+#MaisVendidos table{
+    border-spacing: -86px;
+    text-align: center;
+    border-collapse: separete;
+    left: 20px;
+}
+#MaisVendidos td{
+    color: #191970;
+    font-size: 18px;
+    width: 200px;
+}
+#MaisVendidos img{
+    width: 150px;
+    height: 150px;
+    margin-top: 1px;
+    border: 2px solid white;
+}
+#MaisVendidos p{
+    margin: 20px;
+}
+.tituloProduto{
+    font-weight: bold;
+
+}
+#CompreAqui img{
+    width: 150px;
+    height: 45px;
+    margin-top: 1px;
+}
+#CompreAqui table{
+    border-spacing: -86px;
+    text-align: center;
+    border-collapse: separete;
+    left: 20px;
+}
+#CompreAqui p{
+    margin: 20px;
+}
+#entrega{
+    position:fixed;
+    height: 100px;
+    width: 280px;
+    bottom: 30px;
+    right: 10px;
+}
+#entrega img{
+    border-radius: 10%;
+    right: 10px;
+    width: 70px;
+    position: fixed;
+    bottom: 30px;
+}
+
+#telefone {
+    color:#191970;
+    margin-top: 15px;
+    padding: 10px;
+    padding-bottom: 0;
+    border-radius: 15px;
+    background-color: white;
+    position: absolute;
+    left: 120px;
+    height: 75px;
+}
+#telefone h4{
+    font-size: 10px;    
+    margin: 0;
+}
+#telefone h5{
+    margin: 0;
+    margin-top: 10px;
+}
+#telefone a{
+    color: white;
+    text-decoration: none;
+}
+#sobre{
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: justify;
+    color: #191970;
+    line-height: 25px;
+}
+
+#areaGrid table{
+    border-spacing: -86px;
+    text-align: center;
+    border-collapse: separete;
+    left: 20px;
+    margin-left: 220px;
+}
+#areaGrid td{
+    color: #191970;
+    font-size: 18px;
+    width: 210px;
+}
+#areaGrid img{
+    width: 150px;
+    height: 150px;
+    margin-top: 1px;
+    border: 2px solid white;
+}
+#areaGrid p{
+    margin: 15px;
+}
+.tituloProduto{
+    font-weight: bold;
+}
+#CompreAqui img{
+    width: 150px;
+    height: 45px;
+    margin-top: 1px;
+}
+#CompreAqui table{
+    border-spacing: -86px;
+    text-align: center;
+    border-collapse: separete;
+    left: 20px;
+    margin-left: 300px;
+}
+#CompreAqui p{
+    margin: 20px;
+}
+#tituloConteudo{
+    color: #191970;
+    text-align: center;
+    margin-bottom: 5px;
+}
+#sobre table {
+    border-spacing: 10px;
+    text-align: center;
+    border-collapse: separate;
+    margin-left: 110px;
+}
+#sobre td{
+    color: #191970;
+    font-size: 20px;
+    width: 300px;
+}
+#sobre img{
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+    border-radius: 50%;
+    border: 4px  solid #191970 ;
+}
+#sobre p{
+    margin: 5px;
+
+}
+.tituloProduto{
+    font-weight: bold;
+}
+#contato{
+    font-size: 15px;
+    color: #191970;
+    text-align: center;
+    margin-left: 1px;
+    
+}
+
+#contato  a:link,
+#contato a:visited{
+    text-decoration: none;
+    color: #191970;
+}
+#contato  a:hover{
+    color: #191970;
+    background-color: white;
+}
+#contato img{
+    width: 150px;
+    height: 150px;
+    margin-top: 70px;
+    margin: 20px;
+    margin-bottom: 0;
+    margin-left: 5px;
+    
+}
+#contato td{
+    color: #191970;
+    font-size: 20px;
+    width: 360px;
+    text-align: center;
+
+}
+#tel{
+    position: absolute;
+    left: 37px;
+    height: 55px;
+    background-color: #191970;
+    color: white;
+    margin-top: 35px;
+    padding: 5px;
+    padding-bottom: 0;
+    border-radius: 12px;
+}
+#tel h4{
+    font-size: 20px;
+    margin: 0;
+}
+#tel h5{
+    margin: 0;
+}
+#tel a{
+    color: white;
+    text-decoration: none;
+}
+#tel a{
+    color: #191970;
+    text-decoration: none;
+}
+
+#sobreNos p{
+    margin: 40px;
+    color:#191970;
+    font-size: 18px;
+    border-spacing: 30px;
+    text-align: center;
+    margin-left:50px;
+    
+}
